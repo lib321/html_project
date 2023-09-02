@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 600px;
+    width: 1200px;
+    background: black;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.bottom_buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_box {
+    height: 400px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texts {
+    color: white;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.top_child_box {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text1 {
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.text2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.text3 {
+    font-size: 20px;
+    margin-top: auto;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    background: green;
+    width: 365px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.button_1 {
+    margin-left: 25px;
+}
+
+.button_3 {
+    margin-right: 25px;
+}
+
+.bot_texts {
+    color: white;
+}
+
+.bot_text1 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.bot_text2 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.bot_texts sup {
+    font-size: 10px;
+}
+
+.buttons:hover {
+    background: white;
+    transition-duration: .2s
+}
+
+.buttons:hover .bot_texts {
+    color: green;
+    transition-duration: .2s
+}
+
+
+
+

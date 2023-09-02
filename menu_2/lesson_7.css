@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+}
+
+.left_side {
+    height: 100vh;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+}
+
+.menu_texts {
+    display: flex;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.m {
+    color: red;
+}
+
+.circle {
+    background: red;
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    align-self: center;
+    margin: 0 5px;
+    transition-duration: .5s;
+}
+
+.menu_texts:hover .circle{
+    width: 20px;
+}
